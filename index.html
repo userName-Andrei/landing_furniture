@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+<link rel="stylesheet" href="css/style.min.css">
+<title>Funiro.</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+    <div class="header__wrap">
+        <div class="header__container container">
+            <div class="header__body">
+                <div class="header__body-left left-body">
+                    <a href="/" class="left-body__logo logo">Funiro.</a>
+                    <nav class="left-body__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="/" class="menu__link">Product</a>
+                                <span class="menu__icon _icon-arrow-down"></span>
+                                <ul class="menu__submenu submenu">
+                                    <li class="submenu__item"><a href="/" class="submenu__link">Product 1</a></li>
+                                    <li class="submenu__item"><a href="/" class="submenu__link">Product 1</a></li>
+                                    <li class="submenu__item"><a href="/" class="submenu__link">Product 1</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="/" class="menu__link">Room</a>
+                                <span class="menu__icon _icon-arrow-down"></span>
+                                <ul class="menu__submenu submenu">
+                                    <li class="submenu__item"><a href="/" class="submenu__link">Room 1</a></li>
+                                    <li class="submenu__item"><a href="/" class="submenu__link">Room 1</a></li>
+                                    <li class="submenu__item"><a href="/" class="submenu__link">Room 1</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="/" class="menu__link">Inspirations</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="left-body__search search">
+                        <button class="search__btn-call _icon-search"></button>
+                        <div class="search__body">
+                            <form action="" class="search__form" id="search-form">
+                                <button class="search__btn _icon-search"></button>
+                                <input type="text" class="search__form-input" placeholder="Search for minimalist chair">
+                            </form>
+                            <ul class="search__result result-search">
+                                <li class="result-search__item">Result</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__body-right right-body">
+                    <span class="right-body__item favorite__icon _icon-favorite"></span>
+                    <div class="right-body__item cart">
+                        <span class="cart__icon _icon-cart"></span>
+                        <div class="cart__list">
+                            <ul class="cart__list-wrap">
+                                <!-- <li class="cart__item">
+                                    <p data-cart-list-number>1</p>
+                                    <p data-cart-name>Furawdawdawdawd awdawda awda niture</p>
+                                    <p data-cart-price>$252500</p>
+                                    <span class="cart__delete">&#10006;</span>
+                                </li> -->
+                            </ul>
+                            <button type="button" class="pay popup">Pay</button>
+                        </div>
+                    </div>
+                    <div class="right-body__item profile">
+                        <div class="profile__avatar">
+                            <img src="img/avatar.jpg" alt="avatar">
+                        </div>
+                    </div>
+                    <button type="button" class="burger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="section-first main-slider">
+    <div class="first-slider slider">
+        <div class="slider__container container">
+            <div class="slider__wrap">
+                <div class="slider__content content-slider">
+                    <h1 class="content-slider__title">High-Quality
+                        Furniture Just
+                        For You</h1>
+                    <div class="content-slider__text">Our furniture is made from selected and best quality materials that are suitable for your dream home</div>
+                    <a href="" class="content-slider__btn btn">Shop Now</a>
+                </div>
+                <div class="slider__body body-slider">
+                    <div class="body-slider__controls controls-slider">
+                        <div class="controls-slider__dots"></div>
+                        <div class="controls-slider__arrows slider-arrows">
+                            <button type="button" class="slider-arrows__prev _icon-arrow-down"></button>
+                            <button type="button" class="slider-arrows__next _icon-arrow-down"></button>
+                        </div>
+                    </div>
+                    <div class="slider__track slide slider-swiper">
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="img/main-slider/01.jpg" alt="slide">
+                            </div>
+                            <a href="" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%" class="slide__content">
+                                <div class="slide__content-title">Bohauss</div>
+                                <div class="slide__content-text">Luxury big sofa 2-seat</div>
+                                <div class="slide__content-price _icon-arrow-link">Rp 17.000.000</div>
+                            </a>
+                        </div>
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="img/main-slider/02.jpg" alt="slide">
+                            </div>
+                            <a href="" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%" class="slide__content">
+                                <div class="slide__content-title">Bohauss</div>
+                                <div class="slide__content-text">Luxury big sofa 2-seat</div>
+                                <div class="slide__content-price _icon-arrow-link">Rp 17.000.000</div>
+                            </a>
+                        </div>
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="img/main-slider/03.jpg" alt="slide">
+                            </div>
+                            <a href="" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%" class="slide__content">
+                                <div class="slide__content-title">Bohauss</div>
+                                <div class="slide__content-text">Luxury big sofa 2-seat</div>
+                                <div class="slide__content-price _icon-arrow-link">Rp 17.000.000</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="section-second">
+    <div class="advantages">
+        <div class="advantages__container container">
+            <div class="advantages__wrap">
+                <div class="advantages__item">
+                    <img src="img/advantages/01.svg" alt="advantages" class="advantages__image">
+                    <div class="advantages__text text-advantage">
+                        <div class="text-advantage__title">
+                            High Quality
+                        </div>
+                        <div class="text-advantage__subtitle">
+                            crafted from top materials
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <img src="img/advantages/02.svg" alt="advantages" class="advantages__image">
+                    <div class="advantages__text text-advantage">
+                        <div class="text-advantage__title">
+                            Warrany Protection
+                        </div>
+                        <div class="text-advantage__subtitle">
+                            Over 2 years
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <img src="img/advantages/03.svg" alt="advantages" class="advantages__image">
+                    <div class="advantages__text text-advantage">
+                        <div class="text-advantage__title">
+                            Free Shipping
+                        </div>
+                        <div class="text-advantage__subtitle">
+                            Order over 150 $
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <img src="img/advantages/04.svg" alt="advantages" class="advantages__image">
+                    <div class="advantages__text text-advantage">
+                        <div class="text-advantage__title">
+                            24 / 7 Support
+                        </div>
+                        <div class="text-advantage__subtitle">
+                            Dedicated support
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="section-third">
+    <div class="products">
+        <div class="products__container container">
+            <div class="products__title">Our Products</div>
+            <div class="products__list list-product">
+                <div class="list-product__item list-product__item_plug">
+                    <div class="list-product__image list-product__image_plug">
+                    </div>
+                    <div class="list-product__text text-product">
+                        <div class="text-product__title text-product__title_plug">
+                        </div>
+                        <div class="text-product__subtitle text-product__subtitle_plug"></div>
+                        <div class="text-product__price">
+                            <div class="text-product__newprice text-product__newprice_plug"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-product__item list-product__item_plug">
+                    <div class="list-product__image list-product__image_plug">
+                    </div>
+                    <div class="list-product__text text-product">
+                        <div class="text-product__title text-product__title_plug">
+                        </div>
+                        <div class="text-product__subtitle text-product__subtitle_plug"></div>
+                        <div class="text-product__price">
+                            <div class="text-product__newprice text-product__newprice_plug"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-product__item list-product__item_plug">
+                    <div class="list-product__image list-product__image_plug">
+                    </div>
+                    <div class="list-product__text text-product">
+                        <div class="text-product__title text-product__title_plug">
+                        </div>
+                        <div class="text-product__subtitle text-product__subtitle_plug"></div>
+                        <div class="text-product__price">
+                            <div class="text-product__newprice text-product__newprice_plug"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-product__item list-product__item_plug">
+                    <div class="list-product__image list-product__image_plug">
+                    </div>
+                    <div class="list-product__text text-product">
+                        <div class="text-product__title text-product__title_plug">
+                        </div>
+                        <div class="text-product__subtitle text-product__subtitle_plug"></div>
+                        <div class="text-product__price">
+                            <div class="text-product__newprice text-product__newprice_plug"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-product__item" id="1">
+                    <div class="list-product__image">
+                        <img src="img/products/01.jpg" alt="products">
+                    </div>
+                    <div class="list-product__labels"><div class="label" data-label="discount">-50%</div></div>
+                    <div class="list-product__text text-product">
+                        <div class="text-product__title">Syltherine</div>
+                        <div class="text-product__subtitle">Stylish cafe chair</div>
+                        <div class="text-product__price">
+                            <div class="text-product__newprice">Rp. 1.500.000</div>
+                            <div class="text-product__oldprice"></div>
+                        </div>
+                    </div>
+                    <div class="list-product__hover hover-product">
+                        <div class="hover-product__body">
+                            <button type="button" class="hover-product__btn btn">Add to cart</button>
+                            <a href="" class="hover-product__link _icon-share">Share</a>
+                            <a href="" class="hover-product__link _icon-favorite">Like</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-product__item" id="2">
+                    <div class="list-product__image">
+                        <img src="img/products/02.jpg" alt="products">
+                    </div>
+                    <div class="list-product__labels"><div class="label" data-label="discount">-50%</div></div>
+                    <div class="list-product__text text-product">
+                        <div class="text-product__title">Leviosa</div>
+                        <div class="text-product__subtitle">Stylish cafe chair</div>
+                        <div class="text-product__price">
+                            <div class="text-product__newprice">Rp. 1.500.000</div>
+                            <div class="text-product__oldprice">2.500.000</div>
+                        </div>
+                    </div>
+                    <div class="list-product__hover hover-product">
+                        <div class="hover-product__body">
+                            <button type="button" class="hover-product__btn btn">Add to cart</button>
+                            <a href="" class="hover-product__link _icon-share">Share</a>
+                            <a href="" class="hover-product__link _icon-favorite">Like</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="products__btn btn">Show More</button>
+        </div>
+    </div>
+</section>
+            <section class="section-fourth">
+    <div class="inspirations">
+        <div class="inspirations__container container">
+            <div class="inspirations__wrap">
+                <div class="inspirations__textside textside">
+                    <div class="textside__title">50+ Beautiful rooms inspiration</div>
+                    <div class="textside__text">Our designer already made a lot of beautiful prototipe of rooms that inspire you</div>
+                    <a href="" class="textside__btn btn">Explore More</a>
+                </div>
+                <div class="inspirations__slider slider-inspirations">
+                    <div class="slider-inspirations__track slider-swiper">
+                        <div class="slider-inspirations__item">
+                            <div class="slider-inspirations__image">
+                                <img src="img/rooms/01.jpg" alt="rooms">
+                            </div>
+                            <div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%" class="slider-inspirations__content content-inspirations">
+                                <div class="content-inspirations__text">
+                                    <div class="content-inspirations__subtitle">01 <span class="content-inspirations__line"></span> Bed Room</div>
+                                    <div class="content-inspirations__title">Inner Peace</div>
+                                </div>
+                                <div class="content-inspirations__link">
+                                    <a href="" class="content-inspirations__btn btn _icon-arrow-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-inspirations__item">
+                            <div class="slider-inspirations__image">
+                                <img src="img/rooms/02.jpg" alt="rooms">
+                            </div>
+                            <div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%" class="slider-inspirations__content content-inspirations">
+                                <div class="content-inspirations__text">
+                                    <div class="content-inspirations__subtitle">02 <span class="content-inspirations__line"></span> Bed Room</div>
+                                    <div class="content-inspirations__title">Inner Peace</div>
+                                </div>
+                                <div class="content-inspirations__link">
+                                    <a href="" class="content-inspirations__btn btn _icon-arrow-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-inspirations__item">
+                            <div class="slider-inspirations__image">
+                                <img src="img/rooms/03.jpg" alt="rooms">
+                            </div>
+                            <div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%" class="slider-inspirations__content content-inspirations">
+                                <div class="content-inspirations__text">
+                                    <div class="content-inspirations__subtitle">03 <span class="content-inspirations__line"></span> Bed Room</div>
+                                    <div class="content-inspirations__title">Inner Peace</div>
+                                </div>
+                                <div class="content-inspirations__link">
+                                    <a href="" class="content-inspirations__btn btn _icon-arrow-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-inspirations__controls controls-inspirations">
+                        <div class="controls-inspirations__arrow slider-arrows">
+                            <button type="button" class="slider-arrows__prev slider-arrows__prev_white _icon-arrow-down"></button>
+                            <button type="button" class="slider-arrows__next slider-arrows__next_white _icon-arrow-down"></button>
+                        </div>
+                        <div class="controls-inspirations__dots"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="section-fifth">
+    <div class="tip">
+        <div class="tip__container container">
+            <div class="tip__wrap">
+                <h3 class="tip__title">Tips & Tricks</h3>
+                <div class="tip__slider slider-tip">
+                    <div class="slider-tip__track slider-swiper">
+                        <div class="slider-tip__item tip-card">
+                            <div class="tip-card__image">
+                                <img src="img/tips/01.jpg" alt="tips">
+                            </div>
+                            <div class="tip-card__content tip-content">
+                                <div class="tip-content__title">How to create a living room to love</div>
+                                <div class="tip-content__date">20 jan 2020</div>
+                            </div>
+                        </div>
+                        <div class="slider-tip__item tip-card">
+                            <div class="tip-card__image">
+                                <img src="img/tips/02.jpg" alt="tips">
+                            </div>
+                            <div class="tip-card__content tip-content">
+                                <div class="tip-content__title">Solution for clean look working space</div>
+                                <div class="tip-content__date">10 jan 2020</div>
+                            </div>
+                        </div>
+                        <div class="slider-tip__item tip-card">
+                            <div class="tip-card__image">
+                                <img src="img/tips/03.jpg" alt="tips">
+                            </div>
+                            <div class="tip-card__content tip-content">
+                                <div class="tip-content__title">Make your cooking activity more fun with good setup</div>
+                                <div class="tip-content__date">20 jan 2020</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-tip__controls tip-controls">
+                        <div class="tip-controls__arrow slider-arrows">
+                            <button type="button" class="slider-arrows__prev slider-arrows__prev_white _icon-arrow-down"></button>
+                            <button type="button" class="slider-arrows__next slider-arrows__next_white _icon-arrow-down"></button>
+                        </div>
+                        <div class="tip-controls__dots"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="section-sixth">
+    <div class="gallery">
+        <div class="gallery__wrap">
+            <div class="gallery__subtitle">Share your setup with</div>
+            <h2 class="gallery__title">#FuniroFurniture</h2>
+            <div class="gallery__body">
+                <div class="gallery__item">
+                    <div class="gallery__col">
+                        <div class="gallery__row row-gallery row-gallery_left-top">
+                            <a href="img/furniture/01.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/01.jpg" alt="image"></a>
+                            <a href="img/furniture/02.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/02.jpg" alt="image"></a>
+                        </div>
+                        <div class="gallery__row row-gallery row-gallery_left-bottom">
+                            <a href="img/furniture/06.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/06.jpg" alt="image"></a>
+                            <a href="img/furniture/07.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/07.jpg" alt="image"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__col">
+                        <div class="gallery__row row-gallery row-gallery_center">
+                            <a href="img/furniture/03.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/03.jpg" alt="image"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__col">
+                        <div class="gallery__row row-gallery row-gallery_right-top">
+                            <a href="img/furniture/04.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/04.jpg" alt="image"></a>
+                            <a href="img/furniture/05.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/05.jpg" alt="image"></a>
+                        </div>
+                        <div class="gallery__row row-gallery row-gallery_right-bottom">
+                            <a href="img/furniture/08.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/08.jpg" alt="image"></a>
+                            <a href="img/furniture/09.jpg" data-gallery class="row-gallery__link"><img src="img/furniture/09.jpg" alt="image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__wrap">
+            <div class="footer__item funiro">
+                <h3 class="footer__title"><a href="" class="logo">Funiro.</a> </h3>
+                <p>Worldwide furniture store since 2020. We sell over 1000+ branded products on our website</p>
+                <p><i class="_icon-location"></i> Sawojajar Malang, Indonesia</p>
+                <p><i class="_icon-phone"></i> +6289 456 3455</p>
+                <p><a href="">www.funiro.com</a></p>
+            </div>
+            <div class="footer__item menulist">
+                <h3 class="footer__title logo">Menu</h3>
+                <a href="">Products</a>
+                <a href="">Rooms</a>
+                <a href="">Inspirations</a>
+                <a href="">About Us</a>
+                <a href="">Terms & Policy</a>
+            </div>
+            <div class="footer__item account">
+                <h3 class="footer__title logo">Account</h3>
+                <a href="">My Account</a>
+                <a href="">Checkout</a>
+                <a href="">My Cart</a>
+                <a href="">My catalog</a>
+            </div>
+            <div class="footer__item connected">
+                <h3 class="footer__title logo">Stay Connected</h3>
+                <a href="">Meta</a>
+                <a href="">Instagram</a>
+                <a href="">Twitter</a>
+            </div>
+            <div class="footer__item updated">
+                <h3 class="footer__title logo">Stay Updated</h3>
+                <form action="" class="form-updated" id="email-form">
+                    <input type="email" name="email-updated" class="form-updated__input" placeholder="Enter your email">
+                    <button type="submit" class="form-updated__btn btn _icon-send"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    <div class="modal">
+    <div class="modal__dialog">
+        <div class="modal__content">
+            <form action="#" id="order-form">
+                <div data-modal-close class="modal__close">&times;</div>
+                <div class="modal__title">Your info</div>
+                <label for="name" class="modal__label">Enter your name:</label>
+                <input required placeholder="Name" name="name" id="name" type="text" class="modal__input">
+                <label for="email" class="modal__label">Enter your email:</label>
+                <input required placeholder="name@gmail.com" name="email" id="email" type="email" class="modal__input">
+                <label for="address" class="modal__label">Enter your address:</label>
+                <input required placeholder="2A, Raja Santosh Road, Alipore, Calcutta, India 700027" name="address" id="address" type="text" class="modal__input">
+                <label for="tel" class="modal__label">Enter your phone:</label>
+                <input required placeholder="+91 11 8888 9999" name="tel" id="tel" type="tel" class="modal__input">
+                <label for="message" class="modal__label">Enter your message:</label>
+                <textarea placeholder="Message" name="message" id="message" class="modal__input"></textarea>
+                <div class="modal__title">Your order</div>
+                <table class="order">
+                    <tbody>
+                    </tbody>
+                </table>
+                <button type="submit" class="modal__btn btn">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <script src="js/app.min.js"></script>
+</body>
+</html>

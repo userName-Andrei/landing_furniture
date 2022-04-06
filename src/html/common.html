@@ -1,0 +1,40 @@
+<div class="modal">
+    <div class="modal__dialog">
+        <div class="modal__content">
+            <form action="#" id="order-form">
+                <div data-modal-close class="modal__close">&times;</div>
+                <div class="modal__title">Your info</div>
+                <div class="modal__blocks">
+                    <label for="name" class="modal__label">Enter your name:</label>
+                    <input data-validate placeholder="Name" name="name" id="name" type="text" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="email" class="modal__label">Enter your email:</label>
+                    <input data-validate placeholder="name@gmail.com" name="email" id="email" type="email" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="address" class="modal__label">Enter your address:</label>
+                    <input data-validate placeholder="2A, Raja Santosh Road, Alipore, Calcutta, India 700027" name="address" id="address" type="text" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="tel" class="modal__label">Enter your phone:</label>
+                    <input data-validate placeholder="+91 11 8888 9999" name="tel" id="tel" type="tel" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="message" class="modal__label">Enter your message:</label>
+                    <textarea placeholder="Message" name="message" id="message" class="modal__input"></textarea>
+                </div>
+                <div class="modal__title">Your order</div>
+                <table class="order">
+                    <tbody>
+                    </tbody>
+                </table>
+                <button type="submit" class="modal__btn btn">Send</button>
+            </form>
+        </div>
+    </div>
+</div>

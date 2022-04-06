@@ -1,0 +1,9 @@
+**/*.log
+gulp
+gulpfile.js
+node_modules
+tmp
+lib
+.DS_Store
+.idea
+db.json

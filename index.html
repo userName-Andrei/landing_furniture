@@ -251,48 +251,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="list-product__item" id="1">
-                    <div class="list-product__image">
-                        <img src="img/products/01.jpg" alt="products">
-                    </div>
-                    <div class="list-product__labels"><div class="label" data-label="discount">-50%</div></div>
-                    <div class="list-product__text text-product">
-                        <div class="text-product__title">Syltherine</div>
-                        <div class="text-product__subtitle">Stylish cafe chair</div>
-                        <div class="text-product__price">
-                            <div class="text-product__newprice">Rp. 1.500.000</div>
-                            <div class="text-product__oldprice"></div>
-                        </div>
-                    </div>
-                    <div class="list-product__hover hover-product">
-                        <div class="hover-product__body">
-                            <button type="button" class="hover-product__btn btn">Add to cart</button>
-                            <a href="" class="hover-product__link _icon-share">Share</a>
-                            <a href="" class="hover-product__link _icon-favorite">Like</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="list-product__item" id="2">
-                    <div class="list-product__image">
-                        <img src="img/products/02.jpg" alt="products">
-                    </div>
-                    <div class="list-product__labels"><div class="label" data-label="discount">-50%</div></div>
-                    <div class="list-product__text text-product">
-                        <div class="text-product__title">Leviosa</div>
-                        <div class="text-product__subtitle">Stylish cafe chair</div>
-                        <div class="text-product__price">
-                            <div class="text-product__newprice">Rp. 1.500.000</div>
-                            <div class="text-product__oldprice">2.500.000</div>
-                        </div>
-                    </div>
-                    <div class="list-product__hover hover-product">
-                        <div class="hover-product__body">
-                            <button type="button" class="hover-product__btn btn">Add to cart</button>
-                            <a href="" class="hover-product__link _icon-share">Share</a>
-                            <a href="" class="hover-product__link _icon-favorite">Like</a>
-                        </div>
-                    </div>
-                </div>
             </div>
             <button type="button" class="products__btn btn">Show More</button>
         </div>
@@ -483,7 +441,8 @@
             <div class="footer__item updated">
                 <h3 class="footer__title logo">Stay Updated</h3>
                 <form action="" class="form-updated" id="email-form">
-                    <input type="email" name="email-updated" class="form-updated__input" placeholder="Enter your email">
+                    <input type="email" name="email-updated" class="form-updated__input" data-validate placeholder="Enter your email">
+                    <div class="form-updated__input_error error" data-validate-error></div>
                     <button type="submit" class="form-updated__btn btn _icon-send"></button>
                 </form>
             </div>
@@ -498,16 +457,30 @@
             <form action="#" id="order-form">
                 <div data-modal-close class="modal__close">&times;</div>
                 <div class="modal__title">Your info</div>
-                <label for="name" class="modal__label">Enter your name:</label>
-                <input required placeholder="Name" name="name" id="name" type="text" class="modal__input">
-                <label for="email" class="modal__label">Enter your email:</label>
-                <input required placeholder="name@gmail.com" name="email" id="email" type="email" class="modal__input">
-                <label for="address" class="modal__label">Enter your address:</label>
-                <input required placeholder="2A, Raja Santosh Road, Alipore, Calcutta, India 700027" name="address" id="address" type="text" class="modal__input">
-                <label for="tel" class="modal__label">Enter your phone:</label>
-                <input required placeholder="+91 11 8888 9999" name="tel" id="tel" type="tel" class="modal__input">
-                <label for="message" class="modal__label">Enter your message:</label>
-                <textarea placeholder="Message" name="message" id="message" class="modal__input"></textarea>
+                <div class="modal__blocks">
+                    <label for="name" class="modal__label">Enter your name:</label>
+                    <input data-validate placeholder="Name" name="name" id="name" type="text" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="email" class="modal__label">Enter your email:</label>
+                    <input data-validate placeholder="name@gmail.com" name="email" id="email" type="email" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="address" class="modal__label">Enter your address:</label>
+                    <input data-validate placeholder="2A, Raja Santosh Road, Alipore, Calcutta, India 700027" name="address" id="address" type="text" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="tel" class="modal__label">Enter your phone:</label>
+                    <input data-validate placeholder="+91 11 8888 9999" name="tel" id="tel" type="tel" class="modal__input">
+                    <div class="error" data-validate-error></div>
+                </div>
+                <div class="modal__blocks">
+                    <label for="message" class="modal__label">Enter your message:</label>
+                    <textarea placeholder="Message" name="message" id="message" class="modal__input"></textarea>
+                </div>
                 <div class="modal__title">Your order</div>
                 <table class="order">
                     <tbody>
